@@ -83,29 +83,34 @@
                 </label>
                 <label class="form-item">
                   <span class="label-name">Телефон</span>
-                  <input type="tel" name="telephone" id="" class="input">
+                  <input type="phone" name="telephone" id="" class="input">
                   <svg class="form-icon" width="18" height="18">
                     <use href="./imeges/icon/sprite.svg#icon-phone-form"></use>
                   </svg>
                 </label>
                 <label class="form-item">
                   <span class="label-name">Почта</span>
-                  <input type="email" name="mail" id="" class="input">
+                  <input type="mail" name="mail" id="" class="input">
                   <svg class="form-icon" width="18" height="18">
                     <use href="./imeges/icon/sprite.svg#icon-email-form"></use>
                   </svg>
                 </label>
                 <label class="form-item coment">
                   <span class="label-name">Комментарий</span>
-                  <textarea name="coments" placeholder="Введите текст" cols="10" rows="10" class="text-area"></textarea>
+                  <textarea name="coments" placeholder="Введите текст" cols="10" rows="7" class="text-area"></textarea>
                 </label>
-                <div class="mailing-list">
-                  <label class="form-item">
-                    <input type="checkbox" name="mailing" id="">
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="">Условия договора</a>
-                  </label>
-                </div>
+                
+                <label class="form-item mailing-list">
+                  <input type="checkbox" name="mailing" id="">
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="">Условия договора</a>
+                  <span class="checkbox-icon">
+                    <svg  width="11" height="8">
+                      <use href="./imeges/icon/sprite.svg#icon-checkbox-point"></use>
+                    </svg>
+                  </span>
+                </label>
+                
                 <button type="submit" class="btn-hero">Отправить</button>
               </form>
             </div>
