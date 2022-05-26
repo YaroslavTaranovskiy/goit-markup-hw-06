@@ -72,7 +72,42 @@
                   <use href="./imeges/icon/sprite.svg#icon-close"></use>
                 </svg>
               </button>
-              <form class="modal-form"></form>
+              <form class="modal-form">
+                <b class="form-title">Оставте свои данные, мы вам перезвоним</b>
+                <label class="form-item">
+                  <span class="label-name">Имя</span> 
+                  <input type="text" name="name" id="" class="input">
+                  <svg class="form-icon" width="18" height="18">
+                    <use href="./imeges/icon/sprite.svg#icon-person-form"></use>
+                  </svg>
+                </label>
+                <label class="form-item">
+                  <span class="label-name">Телефон</span>
+                  <input type="tel" name="telephone" id="" class="input">
+                  <svg class="form-icon" width="18" height="18">
+                    <use href="./imeges/icon/sprite.svg#icon-phone-form"></use>
+                  </svg>
+                </label>
+                <label class="form-item">
+                  <span class="label-name">Почта</span>
+                  <input type="email" name="mail" id="" class="input">
+                  <svg class="form-icon" width="18" height="18">
+                    <use href="./imeges/icon/sprite.svg#icon-email-form"></use>
+                  </svg>
+                </label>
+                <label class="form-item coment">
+                  <span class="label-name">Комментарий</span>
+                  <textarea name="coments" placeholder="Введите текст" cols="10" rows="10" class="text-area"></textarea>
+                </label>
+                <div class="mailing-list">
+                  <label class="form-item">
+                    <input type="checkbox" name="mailing" id="">
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="">Условия договора</a>
+                  </label>
+                </div>
+                <button type="submit" class="btn-hero">Отправить</button>
+              </form>
             </div>
           </div>
         </div>
@@ -423,8 +458,8 @@
           </ul>
         
         </div>
-        <div class="subscibe">
-          <h3 class="title title-follow">Подпишитесь на рассылку</h3>
+        <div class="subscribe">
+          <b class="title title-subscribe">Подпишитесь на рассылку</b>
           <div class="subscribe-form">
             <input type="email" name="" placeholder="E-mail" class="form-place">
             <button type="submit" class="btn-subscribe">
