@@ -838,9 +838,17 @@ img {
   
   background-color: transparent;
 
+  outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  transition: border-color var(--transition);
+}
+
+.form-place:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color)
 }
 
 .btn-subscribe {
@@ -855,7 +863,7 @@ img {
 
   display: flex;
   align-items: center;
-  /* text-align: center; */
+  
   justify-content: center;
 
   border: none;
@@ -865,7 +873,7 @@ img {
 }
 
 .btn-subscribe::after {
-  /* display: inline-block; */
+  
   content: '';
   width: 24px;
   height: 24px;
